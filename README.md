@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+ภาษา 
+React.js , typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Node version ที่ใช้  
+v18.16.0
 
-## Available Scripts
+วีธีการลงโปรแกรม
+วิธีลง Vs-code
+เข้าสู่เว็บไซต์หลักของ VS Code: เปิดเบราว์เซอร์ของคุณและเข้าสู่เว็บไซต์ https://code.visualstudio.com/
 
-In the project directory, you can run:
+ดาวน์โหลดไฟล์ติดตั้ง: ที่หน้าเว็บไซต์ VS Code คลิกที่ปุ่ม "ดาวน์โหลดสำหรับ [ระบบปฏิบัติการที่คุณใช้งาน]" ตามระบบปฏิบัติการของคุณ (เช่น Windows, macOS, หรือ Linux)
 
-### `npm start`
+เปิดตัวติดตั้ง: เมื่อดาวน์โหลดเสร็จสิ้น ให้เปิดไฟล์ติดตั้งที่ดาวน์โหลดลงบนเครื่องคุณ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+สำหรับ Windows: ไฟล์ติดตั้งจะเป็นไฟล์ .exe ให้คลิกขวาที่ไฟล์นั้นและเลือก "Run as administrator" (เพื่อความปลอดภัยและสิทธิ์การเข้าถึงที่เพียงพอ)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+สำหรับ macOS: ไฟล์ติดตั้งจะเป็นไฟล์ .dmg ให้ดับเบิลคลิกที่ไฟล์นั้นเพื่อเปิดมันขึ้นมา และลากโปรแกรม Visual Studio Code ไปยังโฟลเดอร์ "Applications" ของคุณ
 
-### `npm test`
+สำหรับ Linux: ไฟล์ติดตั้งจะเป็นไฟล์ .deb (สำหรับ Debian, Ubuntu) หรือ .rpm (สำหรับ Fedora, Red Hat) ให้ใช้เครื่องมือการติดตั้งที่เหมาะสมสำหรับระบบปฏิบัติการ Linux ของคุณ
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ติดตั้ง VS Code: ในขั้นตอนติดตั้งคุณจะเห็นหน้าต่างต้อนรับ - Windows: คลิกที่ "Next" เพื่อเริ่มกระบวนการติดตั้ง และทำตามขั้นตอนที่แนะนำให้เสร็จสิ้นการติดตั้ง
+macOS: ลากโปรแกรม VS Code ไปยังโฟลเดอร์ "Applications" ของคุณ และเริ่มโปรแกรมจากนั้น
 
-### `npm run build`
+Linux: ใช้เครื่องมือการติดตั้งที่เหมาะสมสำหรับระบบปฏิบัติการ Linux ของคุณ เพื่อติดตั้งไฟล์ .deb หรือ .rpm ที่คุณดาวน์โหลด
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+เปิดใช้งาน VS Code: เมื่อติดตั้งเสร็จสิ้น คุณสามารถเรียกใช้โปรแกรม VS Code ได้ทันที โดยเปิดมันจากเมนูหรือไอคอนบนหน้าจอของคุณ
+นี่คือวิธีลงโปรแกรม Visual Studio Code ของคุณแบบพื้นฐาน หลังจากติดตั้งแล้ว คุณสามารถเปิดโปรแกรมและเริ่มใช้งานได้ทันที และคุณยังสามารถปรับแต่งและติดตั้งส่วนขยายต่างๆ เพิ่มเติมใน VS Code ตามต้องการของคุณได้เช่นกัน
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+วิธีลง node
+เข้าสู่เว็บไซต์หลักของ Node.js: เปิดเบราว์เซอร์ของคุณและเข้าสู่เว็บไซต์ https://nodejs.org/
 
-### `npm run eject`
+เลือกเวอร์ชันที่คุณต้องการ: ที่หน้าเว็บไซต์ Node.js คุณจะเห็นตัวเลือกสำหรับดาวน์โหลด เลือกเวอร์ชันที่คุณต้องการติดตั้ง (แนะนำให้ใช้เวอร์ชัน LTS สำหรับการใช้งานทั่วไป)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ดาวน์โหลดตัวติดตั้ง: คลิกที่ลิงก์ดาวน์โหลดสำหรับระบบปฏิบัติการที่คุณใช้งาน (เช่น Windows, macOS, หรือ Linux)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+เปิดตัวติดตั้ง: เมื่อดาวน์โหลดเสร็จสิ้น ให้เปิดไฟล์ติดตั้งที่ดาวน์โหลดลงบนเครื่องคุณ
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+สำหรับ Windows: ไฟล์ติดตั้งจะเป็นไฟล์ .msi ให้คลิกขวาที่ไฟล์นั้นและเลือก "Run as administrator" (เพื่อความปลอดภัยและสิทธิ์การเข้าถึงที่เพียงพอ)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+สำหรับ macOS: ไฟล์ติดตั้งจะเป็นไฟล์ .pkg ให้ดับเบิลคลิกที่ไฟล์นั้นเพื่อเปิดมันขึ้นมา และทำตามขั้นตอนในตัวติดตั้ง
 
-## Learn More
+สำหรับ Linux: ใช้เครื่องมือการติดตั้งที่เหมาะสมสำหรับระบบปฏิบัติการ Linux ของคุณ เพื่อติดตั้งไฟล์ที่คุณดาวน์โหลด
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5.ติดตั้ง Node.js: ในขั้นตอนติดตั้งคุณจะเห็นหน้าต่างต้อนรับ และตัวติดตั้งจะสั่งให้คุณทำตามขั้นตอนต่อไปนี้:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ยอมรับข้อตกลงการใช้งาน: อ่านข้อตกลงการใช้งานและคลิกที่ "Accept" (ยอมรับ) เพื่อดำเนินการต่อ
+
+เลือกตำแหน่งติดตั้ง: เลือกตำแหน่งที่คุณต้องการติดตั้ง Node.js บนเครื่องคุณ โดยปกติแล้วค่าเริ่มต้นที่แนะนำคือใช้ตำแหน่งเดียวกับตำแหน่งที่มีการติดตั้งของระบบปฏิบัติการ
+
+เลือกคอมโพเนนต์ที่จะติดตั้ง: คุณสามารถเลือกติดตั้งคอมโพเนนต์เพิ่มเติมที่คุณต้องการ (เช่น npm) หากไม่มีความจำเป็น คลิกที่ "Next" เพื่อดำเนินการต่อไป
+
+เริ่มต้นติดตั้ง: คลิกที่ "Install" (ติดตั้ง) เพื่อเริ่มกระบวนการติดตั้ง Node.js
+
+
